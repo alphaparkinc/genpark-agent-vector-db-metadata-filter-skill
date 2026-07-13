@@ -1,0 +1,26 @@
+{
+  "name": "genpark-agent-vector-db-metadata-filter-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Dynamic attribute pre-filtering for vector search.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "vectordb",
+    "filter"
+  ],
+  "inputs": {
+    "query": {
+      "type": "string"
+    },
+    "filters": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "applied_filter_expression": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
